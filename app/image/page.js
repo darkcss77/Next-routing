@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ImageP from "@/public/image.jpg";
 
-export default function Home() {
+export default function ImageCard() {
   return (
     <div className="card w-96 bg-base-100 shadow-xl mx-auto mt-10 overflow-hidden relative">
       <h3>Heading</h3>
