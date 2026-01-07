@@ -2,8 +2,13 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav>
-      <ul className="flex gap-3 justify-end mr-10">
+    <nav className="w-full flex justify-between items-center bg-green-400 px-10 py-3">
+      <h1>
+        <Link href="/" className="font-extrabold text-xl">
+          WebSee
+        </Link>
+      </h1>
+      <ul className="flex gap-3 justify-end mr-10 items-center">
         <li>
           <Link href="/">Home</Link>
         </li>
