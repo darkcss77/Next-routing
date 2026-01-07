@@ -24,6 +24,12 @@ const Nav = () => {
         <li>
           <Link href="/image">Images</Link>
         </li>
+        <li>
+          <Link href="/servercomponent">Server</Link>
+        </li>
+        <li>
+          <Link href="/clientcomponent">Client</Link>
+        </li>
       </ul>
     </nav>
   );
